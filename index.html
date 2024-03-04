@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="https://fonts.google.com/specimen/Bebas+Neue/tester?preview.text=NEON%20GENESIS%20EVANGELION&query=bebas" rel="stylesheet">
+
+    <style>
+     body {
+    background-image: url('https://wallpapercrafter.com/th8002/833172-evangelion-nerv-720P.jpg');
+     background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+      background-size: 100% 100%;
+      width: 100px;
+      height: 100px;
+        }
+    h1
+        {
+            text-align: center; 
+            width: 5000px;
+            size: 1000000px;
+            text-decoration-color: white;
+            
+        }
+   .center {
+            margin-left: auto;
+          margin-right: auto;
+            }
+            table {
+                top:50%;
+                position:absolute;
+                left:50%;
+                margin-right:-50%;
+                transform:translate(-50%, -50%);
+                size: 100px;
+            }   .container {
+            background-color:#E8D7FF;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: darkorange;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid black;
+            border-radius: 4px;
+            background-color: #DFFFD6;
+        }
+
+        .navbar {
+            padding-left: 10px;
+            padding-right: 10px;
+
+        
+    </style>
+
+  <title>FERRERAS_QUIZ1</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark"> 
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">Logo</a> -->
+        <img src="data:image/png;base64,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" class="rounded-circle" >
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="https://www.bible.com/">About</a><ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="https://quran.com/en">ALLAH</a></li>
+      <li><a class="dropdown-item" href="https://www.bible.com/">JESUS</a></li>
+      <li><a class="dropdown-item" href="https://www.gotquestions.org/pagan-paganism.html">GOD OF WIND KULKULKHAN</a></li>
+    </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="https://www.wikihow.com/Cry-and-Let-It-All-Out">Programs</a>
+                   <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="https://www.scienceofpeople.com/how-to-be-funny/">Humor</a></li>
+      <li><a class="dropdown-item" href="https://psyche.co/guides/anger-is-a-potent-beneficial-force-if-used-in-the-right-way">Anger</a></li>
+      <li><a class="dropdown-item" href="https://www.nhs.uk/mental-health/conditions/depression-in-adults/treatment/">Depression</a></li>
+    </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"  href="https://palestinecampaign.org/">News</a>
+                   <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="https://irusa.org/middle-east/palestine/">Donate</a></li>
+      <li><a class="dropdown-item" href="https://decolonizepalestine.com/">Decolonize</a></li>
+      <li><a class="dropdown-item" href="https://english.wafa.ps/">News</a></li>
+    </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button class="btn btn-warning" type="button">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+    <h1> Neon Genesis Evangelion Movie Review </h1>
+
+    <br><div class="table-responsive col-xl-12">
+    <table class="table table-dark table-striped">
+        <thead>
+        <tr> 
+            <td>Title</td>
+            <td>Poster</td>
+            <td>Story</td>
+            <td>Cast</td>
+            <td>Rating</td>
+            <td>Review</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td> <img src="https://upload.wikimedia.org/wikipedia/en/9/9e/Eoeposter.JPG"> </td>
+             <td>End of Evangelion</td>
+            <td>An alternative ending to "Neon Genesis Evangelion." SEELE plans an attack on NERV after failing to create a Third Impact. Asuka returns and begins the counterattack, as new enemies descend from the heavens.</td>
+            <td>Directed by Hideaki Anno
+           <p> Shinji Ikari- Megumi Ogata</p>
+           <p> Misato Katsuragi- Kotono Mitsuishi</p>
+           <p> Gendo Ikari- Fumihiko Tachiki</p>
+           <p> Rei Ayanami- Megumi Hayashibara</p>
+           <p> Asuka Langley Soryu- Yūko Miyamura</p>
+           <p> Kaworu Nagisa- Akira Ishida</p> </td>
+            <td>90% Tomato Meter and 85% Audience score according to Rotten Tomatoes</td>
+            <td>End of Evangelion is a movie filled with stunning visuals and a dark story, every moment you watch are characters get beaten down to their very last leg and the end is truly a memorable and remarkable one.</td>
+        </tr>
+
+         <tr>
+            <td> <img src="https://upload.wikimedia.org/wikipedia/en/7/75/Evangelion_1.0_You_Are_Not_Alone_Poster.jpg"> </td>
+            <td>Evangelion 1.0: You Are (Not) Alone</td>
+            <td>After the Second Impact, Tokyo-3 is being attacked by giant creatures called Angels that seek to eradicate humankind. The child Shinji's objective is to fight the Angels by piloting one of the mysterious Evangelion mecha units.</td>
+            <td>Directed by Hideaki Anno
+           <p> Shinji Ikari- Megumi Ogata</p>
+           <p> Misato Katsuragi- Kotono Mitsuishi</p>
+             <p>Gendo Ikari- Fumihiko Tachiki</p>
+           <p> Rei Ayanami- Megumi Hayashibara</p></td>
+            <td>71% Tomato Meter and 85% Audience score according to Rotten Tomatoes</td>
+            <td>1.0 is a introduction to the rebuild series and shows use the first few episodes of the original series in new updated visuals.</td>
+        </tr>
+
+         <tr>
+            <td> <img src="https://upload.wikimedia.org/wikipedia/en/1/13/RoE20Poster.jpg"> </td>
+             <td>Evangelion 2.0: You Can (Not) Advance</td>
+            <td>Under constant attack by Angels, NERV introduces two new pilots: the mysterious Makinami Mari Illustrous and the intense Asuka Langley Shikinami. Parallel to the incursion, Gendo Ikari and SEELE proceed with a secret project that involves both Rei and Shinji.</td>
+            <td>Directed by Hideaki Anno
+           <p> Shinji Ikari- Megumi Ogata</p>
+           <p> Misato Katsuragi- Kotono Mitsuishi</p>
+           <p> Gendo Ikari- Fumihiko Tachiki</p>
+           <p> Rei Ayanami- Megumi Hayashibara</p>
+           <p> Asuka Langley Soryu- Yūko Miyamura</p>
+             <p> Mari Makinami Illustrious- Maaya Sakamoto</p>
+           <p> Kaworu Nagisa- Akira Ishida</p> </td>
+            <td>82% Tomato Meter and 89% Audience score according to Rotten Tomatoes</td>
+            <td>Sets the stage for new, apocalyptic changes in the next "Rebuild" feature, and they appear to be the kind of changes fans have been waiting on for years.</td>
+        </tr>
+
+         <tr>
+            <td> <img src="https://upload.wikimedia.org/wikipedia/en/5/5e/Evangelion_3_poster.png"> </td>
+             <td>Evangelion 3.0: You Can (Not) Redo</td>
+            <td>Shinji awakes on ruined Earth, 14 years after a third impact, and finds that people have turned against him. He becomes trapped in a cycle of death and rebirth, and continues to battle the angels while the world spirals toward complete destruction.</td>
+            <td>Directed by Hideaki Anno
+           <p> Shinji Ikari- Megumi Ogata</p>
+           <p> Misato Katsuragi- Kotono Mitsuishi</p>
+           <p> Gendo Ikari- Fumihiko Tachiki</p>
+           <p> Rei Ayanami- Megumi Hayashibara</p>
+         <p> Mari Makinami Illustrious- Maaya Sakamoto</p>
+           <p> Asuka Langley Soryu- Yūko Miyamura</p>
+           <p> Kaworu Nagisa- Akira Ishida</p> </td>
+            <td>No available tomato score and 65% Audience score according to Rotten Tomatoes</td>
+            <td>The art and the soundtrack are enough reason to watch this movie but its best to watch the two before it to understand what's happening.</td>
+        </tr>
+
+           <tr>
+            <td> <img src="https://upload.wikimedia.org/wikipedia/en/3/36/Evangelion_3.0%2B1.0_Poster.png"> </td>
+             <td>Evangelion 3.0+1.0: Thrice Upon a Time</td>
+            <td>Shinji Ikari is still adrift after losing his will to live, but the place he arrives at teaches him what it means to hope. Finally, the Instrumentality Project is set in motion and Wille make one last gruelling stand to prevent the Final Impact.</td>
+          <td>Directed by Hideaki Anno
+           <p> Shinji Ikari- Megumi Ogata</p>
+           <p> Misato Katsuragi- Kotono Mitsuishi</p>
+           <p> Gendo Ikari- Fumihiko Tachiki</p>
+           <p> Rei Ayanami- Megumi Hayashibara</p>
+           <p> Asuka Langley Soryu- Yūko Miyamura</p>
+           <p> Mari Makinami Illustrious- Maaya Sakamoto</p>
+           <p> Kaworu Nagisa- Akira Ishida</p> </td>
+            <td>100% Tomato Meter and 92% Audience score according to Rotten Tomatoes</td>
+            <td><p>"The film displays a surreal visual brilliance, augmenting the painterly romanticism of the original series into a gyroscopic wildness worthy of the digital age."- Phil Hoad</p>
+
+            <p>"The ultimate summation of Anno's grand design, highlighting the extraordinary visuals of the franchise... all centered around Shinji's embracing of what neon genesis really means."- Richard Whittaker</p>
+
+           <p> "The film synthesizes the nihilistic tone of The End of Evangelion with the more hopeful terms of the anime's original intended finale."- Jake Cole</p></td>
+        </tr>
+    </tbody>
+    </table>
+    </div>
+</body>
+</html>
